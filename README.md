@@ -51,5 +51,28 @@ Temel İşlevler:
 
 
 
+soru 3=Musteri Yonetim Sistemi
+
+ Proje Açıklaması: Bu proje, müşterilerinizi yönetmek ve temel işlemleri gerçekleştirmek için kullanabileceğiniz bir müşteri yönetim sistemi oluşturmanızı içerir. Bu sistem, müşteri bilgilerini saklama, yeni müşteri ekleyebilme, müşteri bilgilerini güncelleyebilme, müşteri silme ve müşteri listesini görüntüleme gibi temel işlevlere sahip olacaktır. İşte projenin temel adımları:
+
+ 1-Müşteri bilgilerini saklamak için bir sözlük yapısı kullanın. Her müşteri için bir benzersiz müşteri kimliği (ID) atayın ve müşteri bilgilerini bu kimlikle ilişkilendirin. Her müşteri için ad, soyad, e-posta, telefon gibi bilgileri içeren bir sözlük kullanabilirsiniz.
+
+2-Kullanıcıya aşağıdaki işlemleri seçebileceği bir menü sunun:
+
+# Yeni müşteri eklemek
+# Müşteri bilgilerini güncellemek
+# Müşteri silmek
+# Tüm müşterileri listelemek
+# Çıkış yapmak
+3-Kullanıcının seçimine göre ilgili işlemi gerçekleştirin. Örneğin, yeni müşteri eklerken kullanıcıdan gerekli bilgileri alın ve sözlüğe yeni bir müşteri ekleyin. -->
+
+4-Müşteri bilgilerini güncellerken, müşteri kimliğini kullanarak mevcut bilgileri görüntüleyin ve güncellenmiş bilgileri kaydedin.
+
+5-Müşteri silme işleminde kullanıcıdan müşteri kimliğini alın ve bu müşteriyi sözlükten silin.
+
+6-Tüm müşterileri listeleme işleminde, mevcut müşterilerin listesini görüntüleyin.
+
+7-Kullanıcı çıkış yapana kadar işlemleri tekrarlayın. 
+
 
 
