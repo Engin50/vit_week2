@@ -99,3 +99,23 @@ while True:
         break
     else:
         print("Geçersiz seçenek! Lütfen tekrar deneyin.")
+
+
+
+# 4. secenek icin yapilabilecek ekleme
+
+import json
+
+# Veriyi yükleme işlevi
+def veriyi_yukle():
+    try:
+        with open("film_kutuphanesi.json", "r") as dosya:
+            film_koleksiyonu.update(json.load(dosya))
+    except FileNotFoundError:
+        pass
+
+# Veriyi kaydetme işlevi
+def veriyi_kaydet():
+    with open("film_kutuphanesi.json", "w") as dosya:
+        json.dump(film_koleksiyonu, dosya)
+
